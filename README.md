@@ -14,23 +14,23 @@ To use this program, you can download the source code and run it in an IDE or co
 This program does not have any constants.
 
 ## Functions
-'**Matrix(int r, int c)**': This function creates a matrix with r rows and c columns.
-'**Matrix(int r, int c, double[] linArr)**': This function creates a matrix with r rows and c columns and initializes its elements using the values in linArr.
-'**getNumRows()**': This function returns the number of rows in the matrix.
-'**getNumCols()**': This function returns the number of columns in the matrix.
-'**getData()**': This function returns the matrix data.
-'**getElement(int r, int c)**': This function returns the element at row r and column c of the matrix.
-'**setElement(int r, int c, double value)**': This function sets the element at row r and column c of the matrix to value.
-'**transpose()**': This function transposes the matrix by swapping its rows and columns.
-'**multiply(double scalar)**': This function multiplies the matrix by a scalar value.
-'**multiply(Matrix other)**': This function multiplies the matrix by another matrix.
-'**toString()**': This function returns a string representation of the matrix.
-'**Vector(int c)**': This function creates a vector with c columns.
-'**Vector(int c, double[] linArr)**': This function creates a vector with c columns and initializes its elements using the values in linArr.
-'**getElement(int c)**': This function returns the element at column c of the vector.
-'**MarkovChain(Vector sVector, Matrix tMatrix)**': This function creates a Markov chain with the given state vector and transition matrix.
-'**isValid()**': This function checks if the Markov chain is valid.
-'**computeProbabilityMatrix(int numSteps)**': This function computes the probability matrix of the Markov chain after numSteps steps.
+- '**Matrix(int r, int c)**': This function creates a matrix with r rows and c columns.
+- '**Matrix(int r, int c, double[] linArr)**': This function creates a matrix with r rows and c columns and initializes its elements using the values in linArr.
+- '**getNumRows()**': This function returns the number of rows in the matrix.
+- '**getNumCols()**': This function returns the number of columns in the matrix.
+- '**getData()**': This function returns the matrix data.
+- '**getElement(int r, int c)**': This function returns the element at row r and column c of the matrix.
+- '**setElement(int r, int c, double value)**': This function sets the element at row r and column c of the matrix to value.
+- '**transpose()**': This function transposes the matrix by swapping its rows and columns.
+- '**multiply(double scalar)**': This function multiplies the matrix by a scalar value.
+- '**multiply(Matrix other)**': This function multiplies the matrix by another matrix.
+- '**toString()**': This function returns a string representation of the matrix.
+- '**Vector(int c)**': This function creates a vector with c columns.
+- '**Vector(int c, double[] linArr)**': This function creates a vector with c columns and initializes its elements using the values in linArr.
+- '**getElement(int c)**': This function returns the element at column c of the vector.
+- '**MarkovChain(Vector sVector, Matrix tMatrix)**': This function creates a Markov chain with the given state vector and transition matrix.
+- '**isValid()**': This function checks if the Markov chain is valid.
+- '**computeProbabilityMatrix(int numSteps)**': This function computes the probability matrix of the Markov chain after numSteps steps.
 
 ## Limitations
 - It only provides a basic implementation of matrix and Markov chain operations.
